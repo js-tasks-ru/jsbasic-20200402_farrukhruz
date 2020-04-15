@@ -1,3 +1,4 @@
+'use strict';
 function factorial( n = prompt('На какое число Факториал ? ', '')){
 if (n < 0){
     return -1;
@@ -8,4 +9,4 @@ if (n < 0){
 }
 
 }    
-alert (factorial ());  
+alert (factorial ());
