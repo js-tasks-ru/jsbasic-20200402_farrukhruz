@@ -10,5 +10,3 @@ return false
 }
 return true;
 }
-alert (isEmpty())
-}
