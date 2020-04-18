@@ -1,5 +1,5 @@
 function sum(m, n) {
   return m + n;
 }
-alert(sum(1,4))
-alert(sum(4,3))
+alert(sum(1,1))
+alert(sum(5,2))
