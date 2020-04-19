@@ -1,9 +1,6 @@
-/**
- * Power
- * @param {number} m base
- * @param {number} n index
- * @returns {number}
- */
 function sum(m, n) {
-  // ваш код...
+return m + n;
+  a
 }
+alert (summ(1,1))
+alert (summ(2,7))
