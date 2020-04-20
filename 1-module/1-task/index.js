@@ -1,4 +1,4 @@
-function factorial( n = prompt('На какое число Факториал ? ', '')){
+function factorial(n)){
   if (n < 0){
       return -1;
   }else if (n === 0){
