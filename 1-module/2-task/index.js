@@ -28,6 +28,4 @@ function sayHello() {
   }
 }
 
-sayHello('user');
-
  
