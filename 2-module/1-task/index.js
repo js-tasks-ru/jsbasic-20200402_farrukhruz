@@ -20,6 +20,3 @@ function sumSalary(object) {
     }
     
     sumSalary(salaries);
-    for (let key in salaries) {
-        console.log (`Общая зарплат ${allName} будет = ${sum}`);
-    }
