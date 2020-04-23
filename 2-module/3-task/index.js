@@ -1,13 +1,13 @@
 let calculator = {
   sum() {
-    return calculator.a + calculator.b
+    return this.a + this.b
     },
   mul() {
-    return calculator.a * calculator.b
+    return this.a * this.b
     },
   read() {
-    calculator.a = parseFloat(prompt(`Добавте a `, 0))
-    calculator.b = parseFloat(prompt(`Добавте б `, 0))
+    this.a = parseFloat(prompt(`Добавте a `, 0))
+    this.b = parseFloat(prompt(`Добавте б `, 0))
     },
     };
 // НЕ УДАЛЯТЬ СТРОКУ, НУЖНА ДЛЯ ПРОВЕРКИ
