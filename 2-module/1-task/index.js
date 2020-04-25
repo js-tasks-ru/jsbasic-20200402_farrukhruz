@@ -7,16 +7,13 @@ let salaries = {
     currency: 'USD',
     isPayed: false
   }
-    let sum =0;
-    let allName ='';
-function sumSalary(object) {
-    for (let key in object) {
-        allName += [key]+ '';
-    if ( typeof object[key] == 'number') {
-    sum += salaries[key];
-
-    } 
-    }
-    }
     
-    sumSalary(salaries);
+  function sumSalary(object) {
+    let sum = 0; 
+    for (let key in object) {
+      if (+object[key]) {
+        sum += object[key];
+      }
+    }
+    return sum;
+  }
