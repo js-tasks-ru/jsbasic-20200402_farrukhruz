@@ -1,4 +1,4 @@
-describe('4-module-2-task', () => {
+fdescribe('4-module-2-task', () => {
   let table;
 
   beforeEach(() => {
